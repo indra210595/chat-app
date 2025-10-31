@@ -157,4 +157,5 @@ npm run dev
 ## Author
 **Indra Sadikin**  
 Fullstack Developer | Data Enthusiast  
-💻 [Portfolio](https://github.com/indra210595)
+[Portfolio](https://github.com/indra210595)
+[Linkedin](www.linkedin.com/in/indra-sadikin-b814a1155)

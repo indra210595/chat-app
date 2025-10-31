@@ -4,6 +4,7 @@ A fullstack **real-time chat application** built with **React**, **Node.js (Expr
 This project demonstrates a complete chat experience including private messaging, group chats, live typing indicators, and message deletion — all connected in real time.  
 
 > Note : *This project was intentionally built in a single main React file for simplicity and demonstration purposes.*
+> In a production setup, the frontend would be split into smaller components like `ChatHeader`, `MessageBubble`, `GroupModal`, etc.
 
 ---
 
@@ -63,16 +64,15 @@ frontend/
 │   ├── services/
 │   └── main.jsx
 └── package.json
-
-> In a production setup, the frontend would be split into smaller components like `ChatHeader`, `MessageBubble`, `GroupModal`, etc.
-
+```
 ---
-## Installation & Setup
+## Setup Instructions
 
 ### Clone the repository
 ```bash
 git clone https://github.com/indra210595/chat-app.git
 cd chat-app
+```
 
 ### Install dependencies
 

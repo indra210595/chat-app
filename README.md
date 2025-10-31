@@ -106,28 +106,31 @@ npm run dev
 npm run dev
 
 ### Key Backend Endpoints
-Method	Endpoint	                    Description
-POST	/api/auth/register	            Register new user
-POST	/api/auth/login	                Login & get JWT
-GET	    /api/messages/:userId	        Fetch private messages
-GET	    /api/messages/group/:groupId	Fetch group messages
-POST	/api/groups	                    Create new group
-DELETE	/api/messages/:id	            Delete a message (own only)
+
+| Method | Endpoint | Description |
+|--------|-----------|-------------|
+| **POST** | `/api/auth/register` | Register new user |
+| **POST** | `/api/auth/login` | Login & get JWT |
+| **GET** | `/api/messages/:userId` | Fetch private messages |
+| **GET** | `/api/messages/group/:groupId` | Fetch group messages |
+| **POST** | `/api/groups` | Create new group |
+| **DELETE** | `/api/messages/:id` | Delete a message (own only) |
+
 
 ### What I Learned
 
-# How to design real-time architectures using Socket.IO.
-# Building auth + socket flow with JWT.
-# Structuring async operations and state updates in React.
-# Handling message synchronization between multiple users.
+- How to design real-time architectures using Socket.IO.
+- Building auth + socket flow with JWT.
+- Structuring async operations and state updates in React.
+- Handling message synchronization between multiple users.
 
 ### Future Improvements
 
-# Edit Message (soft edit + live update)
-# File/Image upload
-# Push Notifications
-# Message read receipts per user
-# Refactor frontend into reusable components
+- Edit Message (soft edit + live update)
+- File/Image upload
+- Push Notifications
+- Message read receipts per user
+- Refactor frontend into reusable components
 
 ## Preview
 - Register
